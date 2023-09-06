@@ -8,16 +8,17 @@ This is the build folder that the system generates when you run `npx antora --fe
 
 .Project Root
 |
-+-- Dockerfile (e.g., catalog.Dockerfile)
+|-- Dockerfile (e.g., catalog.Dockerfile)
 |
-+-- Directory for the Targeted OCP Version (e.g., 4.12)
-|   +-- devfile.yaml
-|   +-- catalog
-|       +-- catalog.yaml
+|-- Directory for the Targeted OCP Version (e.g., 4.12)
+|   |-- devfile.yaml
+|   |-- catalog
+|       |-- catalog.yaml
 |
-+-- Directory for the Targeted OCP Version (e.g., 4.13)
-|   +-- devfile.yaml
-|   +-- catalog
-|       +-- catalog.yaml
+|-- Directory for the Targeted OCP Version (e.g., 4.13)
+|   |-- devfile.yaml
+|   |-- catalog
+|       |-- catalog.yaml
 |
-+-- README.md
+|-- README.md
+
